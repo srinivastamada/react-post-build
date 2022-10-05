@@ -18,7 +18,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "postbuild": "node ./src/build/postbuild.js"
+    "obfuscator":"javascript-obfuscator ./build/**/**/**.js --compact true --self-defending false",
+    "postbuild": "node ./src/scripts/postbuild.js",
+    "postbuild2": "node ./src/scripts/a.js"
+    
+    
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +45,7 @@
   "devDependencies": {
     "child_process": "^1.0.2",
     "fs": "^0.0.1-security",
+    "javascript-obfuscator": "^4.0.0",
     "path": "^0.12.7",
     "purgecss": "^5.0.0"
   }
