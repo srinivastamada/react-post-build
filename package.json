@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "obfuscator":"javascript-obfuscator ./build/**/**/**.js --compact true --self-defending false",
-    "script1": "node ./src/scripts/postbuild.js",
+    "script1": "node ./src/scripts/purgecss.js",
     "script2": "node ./src/scripts/obfuscate.js",
     "postbuild": "npm run script1 && npm run script2"
     
