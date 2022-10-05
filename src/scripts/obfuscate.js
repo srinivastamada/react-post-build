@@ -25,6 +25,7 @@ function obfuscateDir(dirPath) {
         let obfuscatedCode = obfuscator.getObfuscatedCode();
 
         fs.writeFileSync(filePath, obfuscatedCode, { encoding: "utf8", flag: "w+" });
+        console.log("🤖 🤖 🤖 Done!");
     }
 }
 
