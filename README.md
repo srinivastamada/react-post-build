@@ -3,7 +3,7 @@
 Purge css and obfuscated javascript files
 
 ### `npm run build`
-<img src="https://github.com/srinivastamada/react-post-build/blob/master/sceenshot.png" width="650" alt="Angular Post Processing ">
+<img src="https://github.com/srinivastamada/react-post-build/blob/master/screenshot.png" width="650" alt="Angular Post Processing ">
 
 
 
